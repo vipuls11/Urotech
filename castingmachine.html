@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans:wght@500&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="image/download1-removebg-preview (1).png" width="">
+    <title class="uppercase">urotec solutions pvt. ltd.</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .container-2
+        {width: 90%;
+        margin: auto;
+    }
+
+    .nav-color{
+        /* background-color: #000000A6; */
+        position: -webkit-sticky;
+            position: sticky;
+            top:0;
+            z-index: 100;
+    }
+
+        .menu:hover .Sub-Menu {
+            display: block;
+        }
+
+       
+        .menu:hover .sub-menu-it-services{
+            display: block;
+        }
+
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        }
+
+        .menu a{ 
+            position: relative;
+        }
+        .menu a:after{
+            content:"";
+            position: absolute;
+            background-color: rgb(171,61,41);
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: 0;
+            transition: 0.3s;
+        }
+
+        .menu a:hover:after{
+            width: 100%;
+        }
+        
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        } 
+        
+        @media only screen and (max-width:1100px){
+           
+        .menu a:after{
+                height: 0;
+            }
+       
+        }
+
+        .active{
+            color:rgb(171,61,41);
+        }
+
+
+
+
+   
+    </style>
+</head>
+<body>
+   
+     <!-- ...................mini-header................. -->
+     <div class="flex  items-center text-black px-4 py-1 bg-gray-400 lg:text-sm text-xs text-white">
+        <div class="flex">
+        <div class="flex mx-2 w-56"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg><div class="px-1">
+          <a href="">+91 -22-2824 0045 /</a><a href="">46 /</a><a href=""> 48 </a></div> </div>
+        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg><div class="px-1">
+          <a href="">info@urotecsolutions.com</a></div></div>
+    </div>
+        <div class="w-full ml-6 text-white">
+            <marquee behavior="" direction=""><p>Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p></marquee>
+        </div>
+    </div> 
+<!-- ...................mini-header................. -->
+
+<!-- .......................logo................. -->
+    <!-- <div class="hidden lg:block w-full z-30">
+        <div class="  py-1  bg-white grid justify-items-center  w-full ">
+       
+            <a href="home.html"><img src="image/download (1).png" alt="" class=""></a>
+        
+    </div>
+</div> -->
+<!-- .......................logo................. -->
+
+<!-- ........................mean-header.................... -->
+    <div class="nav-color  w-full bg-black opacity-90 text-center ">
+        <div class="nav-color">
+                <nav class="nav-color flex  text-white   items-center  justify-between lg:px-10 px-4" >
+                     <div class=" py-2">
+                        <a href="home.html"><img src="image/download (1).png" alt="" width="80px" height="80px" class="bg-cover rounded-full" ></a>
+                    </div>
+                    <div id="nav-menu" class="text-center hidden sm:block ">
+                            <ul class="flex text-lg menu-item  ">
+                                <li class="menu  capitalize  py-2"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+                                <li class="menu  capitalize py-2"><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+                                    </li>
+                                    <li class="menu relative uppercase capitalize h-full py-2 active"><a href="product.html"  class=" mx-4 ">PRODUCTS</i></a>
+                                      <div class="sub-menu-web-services absolute hidden text-left top-[43px] left-0 bg-[rgb(171,61,41)] text-white px-2 py-2 text-lg  w-96">
+                                        <ul>
+                                            <li class="mb-2 uppercase"><a  href="castingmachine.html">Vacuum pressure induction casting machine</a></li> 
+                        <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                        <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                         <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                        <li class="mb-2 uppercase"> <a  href="comsumable.html">polishing buffering and consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                                        </ul>
+                                    </div>
+                                    </li>
+                                    
+                                    <li class="menu   py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+                                    
+                        </ul>
+                    
+                    </div>
+                    <div class="text-white relative text-xl sm:hidden block" onclick="myFunction()"><i class="fa-solid fa-bars"></i>
+                      
+                </nav> 
+            </div>
+    </div> 
+<!-- ........................mean-header.................... -->
+
+
+    <!-- .....................................on toggle button.................... -->
+    <div  class="absolute lg:hidden text-center z-40 bg-[rgb(171,61,41)]  w-full">
+      <ul id="togglebutton" class="hidden block text-lg menu-item  relative">
+          <li class="menu capitalize  py-2"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+          <li class="menu  capitalize py-2"><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+              </li>
+              <li class="menu relative uppercase capitalize h-full py-2 active"><a href="product.html"  class=" mx-4 ">PRODUCTS</i></a>
+                <div   class="sub-menu-web-services z-20 absolute hidden hover:block text-left top-[43px] left-0 bg-[rgb(171,61,41)] text-white px-2 py-2 text-lg  w-96">
+                  <ul>
+                    <li class="mb-2 uppercase"><a  href="castingmachine.html">Vacuum pressure induction casting machine</a></li> 
+                    <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                    <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                     <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                    <li class="mb-2 uppercase"> <a  href="comsumable.html">polishing buffering and consumables</a></li> 
+                    <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                    <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                    <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                  </ul>
+              </div>
+              </li>
+              
+              <li class="menu py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+
+              <div class="outer absolute top-0 right-3 px-2 cursor-pointer text-white hover:text-black m-2 ">
+                <div class="button font-semibold" onclick="hideVideo()">X</div>
+              </div>      
+  </ul>
+
+  <script>
+    function hideVideo() {
+    var x = document.getElementById("togglebutton");                                                                
+      x.style.display = "none";                                                                 
+    }
+  </script>
+ <!-- .....................................on toggle button.................... -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("togglebutton");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+  </div>
+    
+  <div class="pt-[0px]">
+    <div class="relative bg-[url('image/objectiveimage.avif')] h-[350px] bg-cover text-center ">
+      <div class="absolute top-0 text-white right-0 bottom-0 left-0 w-full h-full bg-cover overflow-hidden opacity-60 transition duration-300 ease-in-out bg-black grid place-content-center ">
+        <div class="lg:w-9/12 m-auto">
+            <h1 class="uppercase text-4xl font-bold my-6 text-white">Vacuum pressure induction casting machine</h1>
+           <!-- <p class="text-xl font-medium text-gray-50 ">Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p> -->
+             </div> 
+      </div>
+    </div>
+    </div>
+
+    <div class="container m-auto my-10">
+        <div>
+        <div class="lg:w-5/12">
+            <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">VACUUM PRESSURE INDUCTION CASTING MACHINE</h1>
+        </div>
+                     <div>
+                        <div class=" lg:flex my-5">
+                        <div class="flex justify-center "><img src="image/vaccumpressure.png " alt="" class="bg-gray-50"></div>
+                        <div class="leading-8" >
+                            <h1 class="font-semibold">Technical Specification :-</h1>
+                            <div class="flex"><h1 class="font-semibold">Power supply </h1><p><span class="font-semibold mr-5 px-4">:- </span> 400 V, 50 Hz, 3-Phase, 10 KW</p></div>
+                            <div class="flex"><h1 class="font-semibold">Capacity </h1><p><span class="font-semibold mr-5 px-4">:- </span> 2 kg /4 kg (gold)</p></div>
+                            <div class="flex"><h1 class="font-semibold">Metering   </h1><p><span class="font-semibold mr-5 px-4">:- </span>By induction at medium frequency.</p></div>
+                            <div class="flex"><h1 class="font-semibold">Flask Capacity  </h1><p><span class="font-semibold mr-5 px-4">:- </span> 5”x18” and 9”x13”</p></div>
+                            <div class="flex"><h1 class="font-semibold">Over pressure  </h1><p><span class="font-semibold mr-5 px-4">:- </span>2 Bar</p></div>
+                            <div class="flex"><h1 class="font-semibold">Compressed air  </h1><p><span class="font-semibold mr-5 px-4">:- </span> 6 Bar</p></div>
+                            <div class="flex"><h1 class="font-semibold">Max. Operating temp.    </h1><p><span class="font-semibold mr-5 px-4">:- </span>1350oc</p></div>
+                            <div class="flex"><h1 class="font-semibold">Protective Gas    </h1><p><span class="font-semibold mr-5 px-4">:- </span>Nitrogen, Argon gas</p></div>
+                            <div class="flex"><h1 class="font-semibold">Vacuum capacity    </h1><p><span class="font-semibold mr-5 px-4">:- </span>40m3/ hour</p></div>
+                        </div>
+                        </div>
+                        <div>
+                            <h1 class="font-semibold py-2">Features :</h1>
+                            <ol class="list-decimal px-5 leading-7">
+                                <li class="px-5"> The control panel is with HMI (computerized) Touch panel and PLC operated, having 4 modes of operation 
+                                    as MANUAL, STANDARD JET TECH & GRAINING.
+                                    </li>
+                                <li class="px-5"> No. of programs-100</li>
+                                <li class="px-5">All parameters are adjustable by operator and user friendly.</li>
+                                <li class="px-5"> Bottom Pouring, Accurate temp. Monitoring by HMI and PLC based monitor.</li>
+                                <li class="px-5"> 18” flasks can be casted with vacuum and pressure.</li>
+                                <li class="px-5"> Casting without vacuum possible.</li>
+                                <li class="px-5">Temp. Sensor located in Center of the metal.</li>
+                                <li class="px-5"> Melting is under inert atmosphere. (NITROGEN OR ARGON GAS)</li>
+                                <li class="px-5">The PLC plays a major role in optimizing the set parameters of all selected data’s with higher accuracy.</li>
+                            </ol>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-10">
+                    <div class="lg:w-96">
+                        <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">platinum casting machine</h1>
+                    </div>
+                                 <div>
+                                    <div class="lg:flex my-2">
+                                    <div class="flex justify-center "><img src="image/600p.PNG" alt="" class=""></div>
+                                    <div class="leading-8 justify-" >
+                                        <h1 class="font-semibold">Technical Specification :-</h1>
+                                        <div class="flex"><h1 class="font-semibold">Power supply </h1><p><span class="font-semibold mr-5 px-4">:- </span> 400 V, 50 Hz, 10-13KW</p></div>
+                                        <div class="flex"><h1 class="font-semibold">Capacity </h1><p><span class="font-semibold mr-5 px-4">:- </span>Melting 500 Gram platinum in graphite crucible.</p></div>
+                                        <div class="flex"><h1 class="font-semibold">Metering   </h1><p><span class="font-semibold mr-5 px-4">:- </span>Fully automatic machine with HMI and PLC</p></div>
+                                        <div>
+                                            <h1 class="font-semibold py-2">Features :</h1>
+                                            <ol class="list-decimal px-5 leading-7">
+                                                <li class="px-5">Very high melting point up to 2000 °C.</li>
+                                                <li class="px-5">Single chamber machine</li>
+                                                <li class="px-5">Programmable for vacuuming and centrifugal.</li>
+                                                <li class="px-5">Centrifugal rotation up to 500 rpm.</li>
+                                                <li class="px-5">Optical pyrometer for continuous monitoring of the Temp.</li>
+                                                <li class="px-5">High grade insulation for excessive high temperature.</li>
+                                            </ol>
+                                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="my-10">
+                                <div class="lg:w-96">
+                                    <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">WET SPURE GRINDING MACHINE</h1>
+                                </div>
+                                             <div>
+                                                <div class="lg:flex  my-2">
+                                                <div class="leading-8 " >
+                                                    <h1 class="font-semibold">Technical Specification :-</h1>
+                                                    <div class="flex"><h1 class="font-semibold">Power supply </h1><p><span class="font-semibold mr-5 px-4">:- </span> 400V, 50 Hz, 0.37 KW</p></div>
+                                                    <div class="flex"><h1 class="font-semibold">Capacity </h1><p><span class="font-semibold mr-5 px-4">:- </span>6” wheels of emery abrasive, silicon abrasive wheel & <br>
+                                                        6”expandable rubber wheel with different grade abrasive 
+                                                        belts for sprue grinding.</p></div>
+                                                    
+                                                        <h1 class="font-semibold py-2">Features :</h1>
+                                                        <ol class="list-decimal px-5 leading-7">
+                                                            <li class="px-5">Sprue grinding, filling and smoothing by one Machine.
+                                                                </li>
+                                                            <li class="px-5">All process is in wet environment so no loss of the precious metal & 
+                                                                process is environment friendly.</li>
+                                                            <li class="px-5">Metal easily recoverable process of filtration and refining.</li>
+                                                            <li class="px-5">Quantitative production with lesser manpower.</li>
+                                                        </ol>
+                                                        
+                                                    </div>
+                                                    <div class="flex justify-center "><img src="image/wet.PNG " alt="" class="bg-gray-50"></div>
+                                                </div>
+                                                </div>
+                                               
+                                            </div>
+                                        
+                      
+                                        <div class="my-10">
+                                            <div class="lg:w-96">
+                                                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">ELECTRO POLISHING MACHINE FOR (SILVER)
+                                                </h1>
+                                            </div>
+                                                         <div>
+                                                            <div class="lg:flex my-2">
+                                                            <div class="flex justify-center "><img src="image/elctro(silver).PNG" alt="" class=""></div>
+                                                            <div class="leading-8 justify-" >
+                                                                <h1 class="font-semibold">Technical Specification :-</h1>
+                                                                <div class="flex"><h1 class="font-semibold">Power supply </h1><p><span class="font-semibold mr-5 px-4">:- </span> 400V, 50 Hz, 2.2KW.</p></div>
+                                                                <div class="flex"><h1 class="font-semibold">Bath capacity </h1><p><span class="font-semibold mr-5 px-4">:- </span>95 Ltr.</p></div>
+                                                                <div class="flex"><h1 class="font-semibold">Bath makeup   </h1><p><span class="font-semibold mr-5 px-4">:- </span>60 Ltr DM water + 35 Ltr solution.</p></div>
+                                                                <div class="flex"><h1 class="font-semibold">Capacity   </h1><p><span class="font-semibold mr-5 px-4">:- </span>100 pcs at a time can be electro polished approx. wet. 700 grm for 20 min</p></div>
+                                                                <div class="flex"><h1 class="font-semibold">Metering   </h1><p><span class="font-semibold mr-5 px-4">:- </span>All monitoring meters & switch gears are mounted on Front panel. 
+                                                                    The operation as well agitation is controlled by a Programmable 
+                                                                    digital timer.</p></div>
+                                                               
+                                                                <div>
+                                                                    <h1 class="font-semibold py-2">Features :</h1>
+                                                                    <ol class="list-decimal px-5 leading-7">
+                                                                        <li class="px-5">All the intricate portion of the articles are semi-finished polished by the process 
+                                                                            </li>
+                                                                        <li class="px-5">The removal of the metal is equivalent current density filigree is covered very well.</li>
+                                                                        <li class="px-5">Removed metal is dissolved in liquid which is recovered 100% from liquid by refining process.</li>
+                                                                        <li class="px-5">The process cost is very low which is very mandatory to cut down the production cost.</li>
+                                                                        <li class="px-5">Easy and simple to operate and process.</li>
+                                                                       
+                                                                    </ol>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                           
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="my-10">
+                                                        <div class="lg:w-96">
+                                                            <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">VAPOUR HONNING MACHINE</h1>
+                                                        </div>
+                                                                     <div>
+                                                                        <div class="lg:flex  my-2">
+                                                                        
+                                                                        <div class="leading-8 justify-" >
+                                                                            <h1 class="font-semibold">Technical Specification :-</h1>
+                                                                            <div class="flex"><h1 class="font-semibold">Power supply </h1><p><span class="font-semibold mr-5 px-4">:- </span> 400V, 50 Hz, 0.75KW.
+                                                                            </p></div>
+                                                                            <div class="flex"><h1 class="font-semibold">Capacity </h1><p><span class="font-semibold mr-5 px-4">:- </span>8 - 10 bar air pressure 5 kg abrasive material with capacity of 15 Ltr 
+                                                                                water.
+                                                                                </p></div>
+                                                                            <div class="flex"><h1 class="font-semibold">Metering   </h1><p><span class="font-semibold mr-5 px-4">:- </span>The panel is fitted besides the working cabinet This accommodates all 
+                                                                                panel devices and control units.
+                                                                                </p></div>
+                                                                            <div>
+                                                                                <h1 class="font-semibold py-2">Features :</h1>
+                                                                                <ol class="list-decimal px-5 leading-7">
+                                                                                    <li class="px-5">Homogeneous mixing of abrasive with water by a special made pump
+                                                                                        </li>
+                                                                                    <li class="px-5">To clean the oxides of the casted surface</li>
+                                                                                    <li class="px-5">To give glitter on the surface of the casted pcs.</li>
+                                                                                    <li class="px-5">To mesh up the porous surface of the casting.
+                                                                                    </li>
+                                                                                    <li class="px-5">Proper rinsing which is mandatory for the operation.</li>
+                                                                                </ol>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="flex justify-center "><img src="image/vapour.PNG" alt="" class=""></div>
+                                                                        </div>
+                                                                       
+                                                                    </div>
+                                                                </div>
+
+        
+        
+        <div class="my-10">
+            <div class="w-2/5 my-4">
+                <h1 class=" text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)] py-2 ">INDUCTION MELTING FURNACE</h1>
+            </div>
+            <div class="lg:flex my-5">
+                <div class="flex justify-center "><img src="image/melting.PNG" alt="" class=""></div>
+            <div class="flex justify-center w-full " >
+            <table class="border border-black text-center w-full ">
+                <tbody>
+                <tr class="border border-black ">
+                <td class="border border-black px-2">MODEL No. </td>
+                <td class="border border-black px-2">CAPACITY</td>
+                <td class="border border-black px-2">POWER</td>
+                <td class="border border-black px-2">SIZE</td>
+                <td class="border border-black px-2">PHASE
+                </td>
+                </tr>
+                <tr class="border border-black ">
+                    <td class="border border-black px-2">IM0.5</td>
+                    <td class="border border-black px-2">0.5 Kg </td>
+                    <td class="border border-black px-2">3 K.W. </td>
+                    <td class="border border-black px-2">15"W X 15"D X 32”H</td>
+                    <td class="border border-black px-2">SINGLE</td>
+                    </tr>
+                    <tr class="border border-black ">
+                        <td class="border border-black px-2">IM1</td>
+                        <td class="border border-black px-2">1 Kg</td>
+                        <td class="border border-black px-2">4 K.W.</td>
+                        <td class="border border-black px-2">15"W X 15"D X 32”H</td>
+                        <td class="border border-black px-2">SINGLE</td>
+                        </tr>
+                        <tr class="border border-black ">
+                            <td class="border border-black px-2">IM2</td>
+                            <td class="border border-black px-2">2 Kg</td>
+                            <td class="border border-black px-2">5 K.W.</td>
+                            <td class="border border-black px-2">15"W X 15"D X 32”H</td>
+                            <td class="border border-black px-2">SINGLE</td>
+                            </tr>
+                            <tr class="border border-black ">
+                                <td class="border border-black px-2">IM3</td>
+                                <td class="border border-black px-2">3 Kg</td>
+                                <td class="border border-black px-2">7.5 K.W.</td>
+                                <td class="border border-black px-2">15"W X 15"D X 32”H</td>
+                                <td class="border border-black px-2">THREE</td>
+                                </tr>
+                            </tbody>     
+            </table>    
+        </div>
+           
+        </div>
+        </div>
+
+        <div class="my-10">
+            <div class="w-2/5 my-2">
+                <h1 class=" text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)] py-2 ">BURNOUT FURNACE</h1>
+            </div>
+            <div class=" lg:flex my-5">
+            <div class="flex justify-center w-full " >
+            <table class="border border-black text-left w-full ">
+                <tbody>
+                <tr class="border border-black ">
+                <td class="border border-black px-4">Name of Equipment</td>
+                <td class="border border-black px-4">Burnout Furnace</td>
+                </tr>
+                <tr class="border border-black ">
+                    <td class="border border-black px-4">Maximum Operating Temperature</td>
+                    <td class="border border-black px-4">700-Degree Centigrade.</td>
+                    </tr>
+                    <tr class="border border-black ">
+                        <td class="border border-black px-4">Heating </td>
+                        <td class="border border-black px-4">Electrical.</td>
+                        </tr>
+                        <tr class="border border-black ">
+                            <td class="border border-black px-4">Temperature Control  </td>
+                            <td class="border border-black px-4">3-1/2 Diget temperature controller.</td>
+                            </tr>
+                            <tr class="border border-black ">
+                                <td class="border border-black px-4">Thermocouple</td>
+                                <td class="border border-black px-4">Simplex Cr/All Type</td>
+                                </tr>
+                                <tr class="border border-black ">
+                                    <td class="border border-black px-4">Supply Voltage</td>
+                                    <td class="border border-black px-4">220V-Single Phase 50Hz</td>
+                                    </tr >
+                                    <tr class="border border-black ">
+                                        <td class="border border-black px-4">Available Sizes For</td>
+                                        <td class="border border-black px-4">9,12,16 Flask</td>
+                                        </tr >
+                                        
+                                        </tbody>
+            </table>    
+        </div>
+            <div class="flex justify-center "><img src="image/bunout.PNG" alt="" class=""></div>
+        </div>
+        </div>
+
+        <div class="my-10">
+            <div class="lg:w-96">
+                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">platinum casting machine</h1>
+            </div>
+                         <div>
+                            <div class="lg:flex  my-5">
+                            <div class="flex justify-center "><img src="image/investment.PNG " alt="" class=""></div>
+                            <div class="leading-8 lg:w-10/12" >
+                                <div>
+                                   
+                                    <ol class="list-decimal px-5 leading-7">
+                                        <div>
+                                        <li class="px-5 font-semibold">Vacuum Chamber
+                                            </li>
+                                            <p>Stainless steel with output valve and fitted with Electrical Vibrator</p>
+                                        </div>
+                                        <div>
+                                            <li class="px-5 font-semibold">Mixing Motor
+                                                </li>
+                                                <p>Inbuilt AC Drive Motor from rotomotive an Italian version with 
+                                                    Programmable slow and high speed with rotation</p>
+                                            </div>
+                                            <div>
+                                                <li class="px-5 font-semibold">Mixing Chamber
+                                                    </li>
+                                                    <p>Stainless Chamber with built in four-arm mixing device of stainless 
+                                                        steel and integrated wipers mixing device for cleaning and pouring is 
+                                                        with detachable SS Valve.
+                                                        </p>
+                                                </div>
+                                                <div>
+                                                    <li class="px-5 font-semibold">Airing Valve
+                                                        </li>
+                                                        <p>At the mixing chamber</p>
+                                                    </div>
+                                                    <div>
+                                                        <li class="px-5 font-semibold">Sink
+                                                            </li>
+                                                            <p>Stainless steel with rubber gask</p>
+                                                        </div>
+                                                        <div>
+                                                            <li class="px-5 font-semibold">Manual Lifting Handle of Stainless Steel
+                                                                </li>
+                                                                <p>For easily lifting and moving the mixing-chamber
+                                                                </p>
+                                                            </div>
+                                                            <div>
+                                                                <li class="px-5 font-semibold">Rotary Platform
+                                                                    </li>
+                                                                    <p>The flask platform is rotary and more number of smaller flasks possible.
+                                                                    </p>
+                                                                </div>
+                                                                <div>
+                                                                    <li class="px-5 font-semibold">Vacuum Pump
+                                                                        </li>
+                                                                        <p>Capacity 40 m3/hrs., 3 Phase, BUSCH German make oil lubricated vacuum pump direct coupled with motor</p>
+                                                                    </div>
+                                    </ol>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="my-10">
+                        <div class="lg:w-96">
+                            <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">platinum casting machine</h1>
+                        </div>
+                                     <div>
+                                        <div class=" lg:flex  my-5">
+                                        <div class="leading-8 " >
+                                            <div>
+                                                
+                                                <ol class="px-5 leading-7">
+                                                    <li class="px-5">Supply, 230V, 50Hz, 2.2 Kw, SS Cabinet with water compressor. Ample lighting & acrylic wind screen. 
+                                                        A slurry filtration provision with removable filter basket is also included which could be attached to the 
+                                                        same system.
+                                                        
+                                                        </li>
+                                                    <li class="px-5 py-4"><span>Dimension : -</span> 30”X20”X66”</li>
+                                                    
+                                                </ol>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-center "><img src="image/waterjet.PNG" alt="" class=""></div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- ...............footer................ -->
+<footer class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 pt-5 border-t-2 border-gray-500 bg-[rgb(171,61,41)] text-gray-50">
+    <div class="text-left">
+    <div>
+        <h1 class="uppercase font-bold text-lg text-black pb-5">urotec solutions pvt. ltd.</h1>
+        <p class="pb-4">
+            <span class="text-black">Head office : </span> Unit no. E3, Plot No. 11 & 12, WICEL Industrial Estate, 
+            Opp. Seepz Gate No. 1, MIDC, Andheri (E), Mumbai - 400093.                 
+        </p>
+    </div>
+    <p class="cursor-pointer mb-2"><a href="https://api.whatsapp.com/send?phone=9930646412"><i class="fa-brands fa-square-whatsapp"></i> +91-22-2824 0045 / </a><a href="">46 / </a><a href="">48</a></p>
+    <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-envelope"></i> info@urotecsolutions.com.com</a></p>
+    <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-globe"></i> www.urotecsolutions.com</a></p>
+    <div class=" text-2xl">
+        <a href="www.twitter.com" ><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="www.linkedin.com"><i class="fa-brands fa-google-plus-g"></i></a>
+    </div> 
+</div>
+
+    <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">Casting Machine</h3>
+        <ul class="leading-7">
+            <li>Vaccum Pressure Induction Casting Machine</li>
+            <li>Platinum Casting Machine</li>
+            <li>Wet Spure Grinding Machine</li>
+            <li>Electro Polishing Machine For (Silver)</li>
+            <li>Vapour Honning Machine</li>
+            <li>Induction Melting Furnace</li>
+            <li>Burnout Furnace</li>
+            <li>Investment</li>
+            <li>Waterjet</li>
+        </ul>
+    </div>
+
+   <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">products and machinery for cleaning and finishing</h3>
+        <ul class="leading-7">
+            <li>Urotec Magnetic Tumbler</li>
+            <li>Urotec Vibrator</li>
+            <li>Ultrasonic Cleaning Machine Silent</li>
+        </ul>
+    </div>
+
+    <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">uro cleaning products range</h3>
+        <ul class="leading-7">
+            <li>Ultra Cleaning Solution</li>
+            <li>Magnetic Solution</li>
+            <li>Shining Solution</li>
+            <li>Decreasing Salt</li>
+            <li>Antitarnish Urotec 100 for Silver</li>
+            <li>Uro Matt Finis Powder</li>
+            <li>Uro Rose Gold Plating</li>
+            <li>Uro Liquid Mould Rubber</li>
+            <li>Uro Zinc AR</li>
+
+        </ul>
+        <button id="scroll" class="hidden fixed bottom-5 right-3 z-50  border border-gray-400 outline-none outline-0 bg-gray-400 hover:bg-orange-600 text-white cursor-pointer py-3.5 px-5 rounded-full"><i class="fa-solid fa-arrow-up text-xl text-black"></i></button>
+    </div>
+        <!-- <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+     -->
+
+ 
+</footer>
+ 
+<script>
+    $(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 800); 
+      return false; 
+  }); 
+});
+
+  </script>  
+
+ <!-- <script>
+    function myFunction() {
+      var x = document.getElementById("nav-menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script> -->
+<script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+</body>
+</html>

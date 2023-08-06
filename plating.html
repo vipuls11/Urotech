@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans:wght@500&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="image/download1-removebg-preview (1).png" width="">
+    <title class="uppercase">urotec solutions pvt. ltd.</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .container-2
+        {width: 90%;
+        margin: auto;
+    }
+
+    .nav-color{
+        /* background-color: #000000A6; */
+        position: -webkit-sticky;
+            position: sticky;
+            top:0;
+            z-index: 100;
+    }
+
+        .menu:hover .Sub-Menu {
+            display: block;
+        }
+
+       
+        .menu:hover .sub-menu-it-services{
+            display: block;
+        }
+
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        }
+
+        .menu a{ 
+            position: relative;
+        }
+        .menu a:after{
+            content:"";
+            position: absolute;
+            background-color: rgb(171,61,41);
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: 0;
+            transition: 0.3s;
+        }
+
+        .menu a:hover:after{
+            width: 100%;
+        }
+        
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        } 
+        
+        @media only screen and (max-width:1100px){
+           
+        .menu a:after{
+                height: 0;
+            }
+       
+        }
+
+        .active{
+            color: rgb(171,61,41);
+        }
+
+
+
+
+   
+    </style>
+</head>
+<body>
+   
+     <!-- ...................mini-header................. -->
+     <div class="flex  items-center text-black px-4 py-1 bg-gray-400 lg:text-sm text-xs text-white">
+        <div class="flex">
+        <div class="flex mx-2 w-56"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg><div class="px-1">
+          <a href="">+91 -22-2824 0045 /</a><a href="">46 /</a><a href=""> 48 </a></div> </div>
+        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg><div class="px-1">
+          <a href="">info@urotecsolutions.com</a></div></div>
+    </div>
+        <div class="w-full ml-6 text-white">
+            <marquee behavior="" direction=""><p>Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p></marquee>
+        </div>
+    </div> 
+<!-- ...................mini-header................. -->
+
+<!-- .......................logo................. -->
+    <!-- <div class="hidden lg:block w-full z-30">
+        <div class="  py-1  bg-white grid justify-items-center  w-full ">
+       
+            <a href="home.html"><img src="image/download (1).png" alt="" class=""></a>
+        
+    </div>
+</div> -->
+<!-- .......................logo................. -->
+
+<!-- ........................mean-header.................... -->
+    <div class="nav-color  w-full bg-black opacity-90 text-center ">
+        <div class="nav-color">
+                <nav class="nav-color flex  text-white   items-center  justify-between lg:px-10 px-4" >
+                     <div class=" py-2">
+                       <a href="home.html"> <img src="image/download (1).png" alt="" width="80px" height="80px" class="bg-cover rounded-full" ></a>
+                    </div>
+                    <div id="nav-menu" class="text-center hidden sm:block ">
+                            <ul class="flex text-lg menu-item  ">
+                                <li class="menu  capitalize  py-2"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+                                <li class="menu  capitalize py-2"><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+                                    </li>
+                                    <li class="menu relative uppercase capitalize h-full py-2 active"><a href="product.html"  class=" mx-4 ">PRODUCTS</i></a>
+                                      <div class="sub-menu-web-services absolute hidden text-left top-[43px] left-0 bg-[rgb(171,61,41)] text-white px-2 py-2 text-lg  w-96">
+                                        <ul>
+                                            <li class="mb-2 uppercase"><a  href="castingmachine.html">Vacuum pressure induction casting machine</a></li> 
+                        <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                        <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                         <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                        <li class="mb-2 uppercase"> <a  href="comsumable.html">polishing buffering and consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                                    </div>
+                                    </li>
+                                    
+                                    <li class="menu   py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+                                    
+                        </ul>
+                    
+                    </div>
+                    <div class="text-white relative text-xl sm:hidden block" onclick="myFunction()"><i class="fa-solid fa-bars"></i>
+                      
+                </nav> 
+            </div>
+    </div> 
+<!-- ........................mean-header.................... -->
+
+
+    <!-- .....................................on toggle button.................... -->
+    <div  class="absolute lg:hidden text-center z-40 bg-orange-900  w-full">
+      <ul id="togglebutton" class="hidden block text-lg menu-item  relative">
+          <li class="menu capitalize  py-2"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+          <li class="menu  capitalize py-2"><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+              </li>
+              <li class="menu relative uppercase capitalize h-full py-2 active"><a href="product.html"  class=" mx-4 ">PRODUCTS</i></a>
+                <div   class="sub-menu-web-services z-20 absolute hidden hover:block text-left top-[43px] left-0 bg-[rgb(171,61,41)] text-white px-2 py-2 text-lg  w-96">
+                  <ul>
+                    <li class="mb-2 uppercase"><a  href="castingmachine.html">Vacuum pressure induction casting machine</a></li> 
+                    <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                    <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                     <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                    <li class="mb-2 uppercase"> <a  href="comsumable.html">polishing buffering and consumables</a></li> 
+                    <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                    <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                    <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                  </ul>
+              </div>
+              </li>
+              
+              <li class="menu py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+
+              <div class="outer absolute top-0 right-3 px-2 cursor-pointer text-white hover:text-black m-2 ">
+                <div class="button font-semibold" onclick="hideVideo()">X</div>
+              </div>      
+  </ul>
+
+  <script>
+    function hideVideo() {
+    var x = document.getElementById("togglebutton");                                                                
+      x.style.display = "none";                                                                 
+    }
+  </script>
+ <!-- .....................................on toggle button.................... -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("togglebutton");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+  </div>
+    
+  <div class="pt-[0px]">
+    <div class="relative bg-[url('image/objectiveimage.avif')] h-[350px] bg-cover text-center ">
+      <div class="absolute top-0 text-white right-0 bottom-0 left-0 w-full h-full bg-cover overflow-hidden opacity-60 transition duration-300 ease-in-out bg-black grid place-content-center ">
+        <div class="lg:w-11/12 m-auto">
+            <h1 class="uppercase text-4xl font-bold my-6 text-white">PLATING SOLUTION & CONSUMABLES</h1>
+           <!-- <p class="text-xl font-medium text-gray-50 ">Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p> -->
+             </div> 
+      </div>
+    </div>
+    </div>
+
+    <div class="container-2 m-auto my-10">
+        <div class="lg:w-96 mx-auto">
+            <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">PLATING SOLUTION & CONSUMABLES</h1>
+        </div>
+    
+           
+                     <div class="my-10">
+                        <div class="flex">
+                            <div>
+                                <div class="grid grid-cols-3">
+                                    <div >
+                                        <h1 class="font-semibold py-1">1 Diamond Bright</h1>
+                                        <p class="text-xs leading-6">
+                                            It gives ultra-bright white coating
+                                            and is used for decorative purpose
+                                            on jewellery in bath plating.
+                                             
+                                        </p>
+                                        <h2 class="text-[rgb(171,61,41)] font-semibold py-1 text-sm"><span>*</span>URO-128<span>*</span></h2>
+                                    </div>
+                                    <div >
+                                        <h1 class="font-semibold py-1">2 Rhodium JI</h1>
+                                        <p class="text-xs leading-6">
+                                            It gives ultra-bright white coating
+                                            and is used for decorative purpose
+                                            on jewellery in bath plating.   
+                                        </p>
+                                        <h2 class="text-[rgb(171,61,41)] font-semibold py-1 text-sm"><span>*</span>URO-129<span>*</span></h2>
+                                    </div>
+                                    <div class="" >
+                                        <h1 class="font-semibold py-1">3 Rhodium 271</h1>
+                                        <p class="text-xs leading-6">
+                                            White Pen Plating solution
+                                        </p>
+                                        <h2 class="text-[rgb(171,61,41)] font-semibold py-1 text-sm"><span>*</span>URO-130<span>*</span></h2>
+                                    </div>
+                                </div>
+                                <div class="my-2">
+                                    <h1 class="font-semibold py-1">4 Lacquers</h1>
+                                        <p class="text-xs leading-6">
+                                            Is available in 2 colors Cherry & Tomato Red <span class="font-semibold text-[rgb(171,61,41)] text-md">*URO-131*</span>
+                                        </p>
+                                </div>
+                                <div>
+                                    <h1 class="font-semibold py-1">4 Pens</h1>
+                                        <p class="text-xs leading-6">
+                                            Pen plating pens are available having a platinum wire for better plating results <span class="font-semibold text-[rgb(171,61,41)] text-md">*URO-132*</span>
+                                        </p>
+                                </div>
+                                <div>
+                                    <h1 class="font-semibold py-1">Pen Plating Tips</h1>
+                                        <div class="">
+                                            <table class="w-full">
+                                                <tbody class="w-full text-center leading-8">
+                                                    <tr>
+                                                        <td></td>
+                                                        <td>Description</td>
+                                                        <td>Colour</td>
+                                                        <td>Code</td>
+                                                    </tr>
+            
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Fine Top Soft Grade <br>
+                                                        Double End Fine
+                                                        </td>
+                                                        <td>white</td>
+                                                        <td><span>*</span>URO-133<span>*</span></td>
+                                                    </tr>
+            
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Long and Bullet Tip</td>
+                                                        <td>white</td>
+                                                        <td><span>*</span>URO-134<span>*</span></td>
+                                                    </tr>
+            
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Double End <span>.</span> Square Bevel Tip</td>
+                                                        <td>Brown</td>
+                                                        <td><span>*</span>URO-135<span>*</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                </div>
+
+                            </div>
+                            <div class="items-center flex w-80">
+                                <div>
+                                <img src="image/123.PNG" alt="" class="my-4">
+                                <img src="image/lacquers.PNG" alt="" class="my-4">
+                                <img src="image/pentips.PNG" alt="" class="my-4">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div>
+                            <div class="lg:w-80">
+                                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">UROCAST-CRUCIBLE</h1>
+                            </div>
+                            <div class="grid lg:grid-cols-5 grid-cols-2 gap-5 px-5 justify-items-center my-5">
+                                <div class=" w-full">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Yasui KT -15</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>60 x90</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>12 x 135</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Graining</td>
+                                                    <td>65 X 95</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-KT15</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Yasui KT -17/K2E</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>70 X 128</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>23.5 X 135</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-KT17/K2E</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Yasui K3E</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>70 X 90</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>24 X 136.5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Graining</td>
+                                                    <td>70 X 124</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-K3E</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Yasui K5-K2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>65 X 72</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>25 X 133</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Graining</td>
+                                                    <td>65 X 70</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-K5-K2</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Neutec JZ</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>75 X 125</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>15 X 225</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Graining</td>
+                                                    <td>75 X 110</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-JZ</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Induthem VC 600</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>78 X 120</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>12.7 x 180</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-IVC600</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Induthem VC 600</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>68 X 120</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>11.7 X 174</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-IVC450</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Sculthelss</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>76 X 130</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>14 X 165</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Graining</td>
+                                                    <td>76 x 130</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-SCC</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Indutherm Contlnous <br>
+                                                    Casting Crutible</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Crucible</td>
+                                                    <td>78 X 140</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">Stopper Rod</td>
+                                                    <td>15 X 103/Die 35X100</td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CC-ICCC</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class=" w-full ">
+                                    <div class="my-4 mx-auto w-32">
+                                        <img src="image/kt-15.PNG" alt="">
+                                    </div>
+                                    <div>
+                                        <table class="w-full">
+                                            <tbody class="text-xs leading-5 text-center">
+                                                <tr>
+                                                    <td class="font-semibold">Name</td>
+                                                    <td>Graphite Crcible for <br>
+                                                        Melting/Casting
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">1 Kg.</td>
+                                                    <td>65 X 125</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="font-semibold">2 Kg.</td>
+                                                    <td>75 x 165</td>
+                                                </tr>
+                                               
+                                                <tr>
+                                                    <td class="font-semibold">Code</td>
+                                                    <td class="text-[rgb(171,61,41)]">URO-CAST-MTC</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="lg:w-72 text-left">
+                                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">OPTIVISOR</h1>
+                            </div>
+                            <div class="grid lg:grid-cols-2 grid-cols-1  my-2">
+                                
+                        <div class="leading-8 justify-" >
+                                <div class="list-decimal px-5 leading-7">
+                                    
+                                    <p class="text-sm py-2 px-2">
+                                        OptiVISOR is a precision binocular headband magnifier which permits 
+                                        unrestricted user efficiency while reducing eye strain-leaves both hands free and 
+                                        allows three dimensional vision.</p>
+                                        <h1 class="font-semibold my-2">
+                                            Specification
+                                        </h1>
+                                   <table class="w-full text-sm px-2">
+                                    <tbody class="w-full text-left leading-5">
+                                        <tr>
+                                            <td>Item No.</td>
+                                            <td>Focal Length</td>
+                                            <td>Magnification</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-2</td>
+                                            <td>20"</td>
+                                            <td>1.5 times</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-3 / LX3</td>
+                                            <td>14"</td>
+                                            <td>1.75 time</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-4 / LX4</td>
+                                            <td>10"</td>
+                                            <td>2 times</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-5 / LX5</td>
+                                            <td>8"</td>
+                                            <td>2.5 times</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-7 / LX7</td>
+                                            <td>6"</td>
+                                            <td>2.75 times</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>DA-5 / LX5</td>
+                                            <td>4"</td>
+                                            <td>3.5 times</td>
+                                        </tr>
+                                    </tbody>                                   
+                                   </table>
+                                    </div>
+                                
+                            </div>
+                            <div class="flex justify-center"><img src="image/uro-ov-159.PNG " alt="" class="bg-gray-50"></div>
+                        </div>
+                        </div>
+                      
+        
+        <div>
+            <div class="lg:w-72 text-left">
+                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">OPTIVISOR</h1>
+            </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1  my-10">
+                <div class=" px-5 flex items-center leading-6">
+                    <p class="">
+                        The OptiLOUPE is an attachable lens that adds additional 2.5 times magnification power of an 
+                        Eye Loupe to the OptiVISOR. Easily attaches to either of any OptiVISOR or Opti-VISOR LX</p>
+                    </div>
+                
+            <div class="flex justify-center"><img src="image/optiloupe.PNG" alt="" class="bg-gray-50"></div>
+        </div>
+        </div>
+
+
+        <div>
+            <div class="lg:w-72 text-left">
+                <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">VISORLIGHT</h1>
+            </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1  my-10">
+                <div><h1 class="text-sm font-semibold py-2">Specification :</h1>
+                <div class="leading-6">
+                    <p class="">
+                        Hands-free light, Xenon laserbeam bulb, 6000 candle power
+                      </p>
+                      <p class="">
+                        Four to five hours battery life (continuous use)
+                      </p>
+                     <div class="grid grid-cols-2 gap-4">
+                        <div><p>Model LT-06: 10” cord,</p></div>
+                        <div>Model LT-42: 42” cord</div>
+                     </div>
+                     <p>Operation on two AA batteries (not included)</p>
+                    </div>
+                </div>
+            <div class="flex justify-center"><img src="image/visorlight.PNG" alt="" class="bg-gray-50"></div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!-- ...............footer................ -->
+<footer class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 pt-5 border-t-2 border-gray-500 bg-[rgb(171,61,41)] text-gray-50">
+    <div class="text-left">
+    <div>
+        <h1 class="uppercase font-bold text-lg text-black pb-5">urotec solutions pvt. ltd.</h1>
+        <p class="pb-4">
+            <span class="text-black">Head office : </span> Unit no. E3, Plot No. 11 & 12, WICEL Industrial Estate, 
+            Opp. Seepz Gate No. 1, MIDC, Andheri (E), Mumbai - 400093.                 
+        </p>
+    </div>
+    <p class="cursor-pointer mb-2"><a href="https://api.whatsapp.com/send?phone=9930646412"><i class="fa-brands fa-square-whatsapp"></i> +91-22-2824 0045 / </a><a href="">46 / </a><a href="">48</a></p>
+    <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-envelope"></i> info@urotecsolutions.com.com</a></p>
+    <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-globe"></i> www.urotecsolutions.com</a></p>
+    <div class=" text-2xl">
+        <a href="www.twitter.com" ><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="www.linkedin.com"><i class="fa-brands fa-google-plus-g"></i></a>
+    </div> 
+</div>
+
+    <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">Casting Machine</h3>
+        <ul class="leading-7">
+            <li>Vaccum Pressure Induction Casting Machine</li>
+            <li>Platinum Casting Machine</li>
+            <li>Wet Spure Grinding Machine</li>
+            <li>Electro Polishing Machine For (Silver)</li>
+            <li>Vapour Honning Machine</li>
+            <li>Induction Melting Furnace</li>
+            <li>Burnout Furnace</li>
+            <li>Investment</li>
+            <li>Waterjet</li>
+        </ul>
+    </div>
+
+   <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">products and machinery for cleaning and finishing</h3>
+        <ul class="leading-7">
+            <li>Urotec Magnetic Tumbler</li>
+            <li>Urotec Vibrator</li>
+            <li>Ultrasonic Cleaning Machine Silent</li>
+        </ul>
+    </div>
+
+    <div class="cursor-pointer">
+        <h3 class="text-lg pb-5 text-black uppercase">uro cleaning products range</h3>
+        <ul class="leading-7">
+            <li>Ultra Cleaning Solution</li>
+            <li>Magnetic Solution</li>
+            <li>Shining Solution</li>
+            <li>Decreasing Salt</li>
+            <li>Antitarnish Urotec 100 for Silver</li>
+            <li>Uro Matt Finis Powder</li>
+            <li>Uro Rose Gold Plating</li>
+            <li>Uro Liquid Mould Rubber</li>
+            <li>Uro Zinc AR</li>
+
+        </ul>
+        <button id="scroll" class="hidden fixed bottom-5 right-3 z-50  border border-gray-400 outline-none outline-0 bg-gray-400 hover:bg-orange-600 text-white cursor-pointer py-3.5 px-5 rounded-full"><i class="fa-solid fa-arrow-up text-xl text-black"></i></button>
+    </div>
+        <!-- <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+            <ul>
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+     -->
+
+ 
+</footer>
+ 
+<script>
+    $(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 800); 
+      return false; 
+  }); 
+});
+
+  </script>  
+
+ <!-- <script>
+    function myFunction() {
+      var x = document.getElementById("nav-menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script> -->
+<script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+</body>
+</html>

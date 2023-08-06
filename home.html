@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans:wght@500&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="image/download1-removebg-preview (1).png" width="">
+    <title class="uppercase">urotec solutions pvt. ltd.</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .container-2
+        {width: 90%;
+        margin: auto;
+    }
+
+    .nav-color{
+        /* background-color: #000000A6; */
+        position: -webkit-sticky;
+            position: sticky;
+            top:0;
+            z-index: 100;
+    }
+
+        .menu:hover .Sub-Menu {
+            display: block;
+        }
+
+       
+        .menu:hover .sub-menu-it-services{
+            display: block;
+        }
+
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        }
+
+        .menu a{ 
+            position: relative;
+        }
+        .menu a:after{
+            content:"";
+            position: absolute;
+            background-color:rgb(188,45,28);
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: 0;
+            transition: 0.3s;
+        }
+
+        .menu a:hover:after{
+            width: 100%;
+        }
+        
+        .menu:hover .sub-menu-web-services{
+            display: block;
+        } 
+        
+        @media only screen and (max-width:1100px){
+           
+        .menu a:after{
+                height: 0;
+            }
+       
+        }
+
+        .active{
+          color:rgb(188,45,28);
+        }
+
+      
+   /* Section 5 - Hover Effect #05 */
+   section {
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+
+
+
+
+
+.row {
+  /* max-width: 950px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading {
+    margin-bottom: 1em;
+}
+
+.figure {
+  background: #1d1d1d;
+  display: inline-block;
+  margin: 10px;
+  max-width: 280px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.figure * {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+
+.section-5 .figure {
+  height: 300px;
+}
+
+.section-5 .figure img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+
+.section-5 .figure figcaption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 13%;
+  right: 13%;
+  border: 1px solid rgba(239,239,239,0.8);
+  border-width: 0 1px;
+  background-color: rgba(29,29,29,0.2);
+  color: #efefef;
+/*   width: 220px; */
+}
+
+.section-5 .figure h2 {
+  padding: 15px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.section-5 .figure .icon,
+.section-5 .figure .caption {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+}
+
+.section-5 .figure .icon {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 0;
+}
+
+.section-5 .figure .caption {
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  bottom: 0;
+}
+
+.section-5 .figure p,
+.section-5 .figure .icon span {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  color: rgba(239,239,239,0);
+
+}
+
+.section-5 .figure p:before,
+.section-5 .figure .icon span:before,
+.section-5 .figure p:after,
+.section-5 .figure .icon span:after {
+  position: absolute;
+  height: 1px;
+  content: '';
+  background: #fff;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.section-5 .figure .icon span:before,
+.section-5 .figure .icon span:after {
+  width: 1000%;
+  top: 50%;
+}
+
+.section-5 .figure .icon span:before {
+  left: -1000%;
+}
+
+.section-5 .figure .icon span:after {
+  right: -1000%;
+}
+
+.section-5 ion-icon {
+  color: #efefef;
+  font-size: 30px;
+}
+
+.section-5 .figure p:before,
+.section-5 .figure p:after {
+  width: 150%;
+  bottom: 50%;
+}
+
+.section-5 .figure p:before {
+  left: -100%;
+}
+
+.section-5 .figure p:after {
+  right: -100%;
+}
+
+.section-5 .figure a {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.section-5 .figure:hover img,
+.section-5 .figure.hover img {
+  opacity: 0.15;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.section-5 .figure:hover p,
+.section-5 .figure.hover p {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+  color: #efefef;
+}
+
+.section-5 .figure:hover p:before,
+.section-5 .figure.hover p:before {
+  left: -150%;
+}
+
+.section-5 .figure:hover p:after,
+.section-5 .figure.hover p:after{
+  right: -150%;
+}
+/* .............section-5........... */
+    </style>
+</head>
+<body>
+  <!-- ...................mini-header................. -->
+    <div class="flex  items-center text-black px-4 py-1 bg-gray-400 lg:text-sm text-xs">
+        <div class="flex text-white">
+        <div class="flex mx-2 w-56"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg><div class="px-1">
+          <a href="tel:+91 -22-2824 0045">+91 -22-2824 0045 /</a><a href="tel:+91 -22-2824 0046">46 /</a><a href="tel:+91 -22-2824 0048"> 48 </a></div> </div>
+        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg><div class="px-1">
+          <a href="mailto: info@urotecsolutions.com">info@urotecsolutions.com</a></div></div>
+    </div>
+        <div class="w-full text-white ml-6">
+            <marquee behavior="" direction=""><p>Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p></marquee>
+        </div>
+    </div> 
+<!-- ...................mini-header................. -->
+
+<!-- .......................logo................. -->
+    <!-- <div class="hidden lg:block w-full z-30">
+        <div class="  py-1  bg-white grid justify-items-center  w-full ">
+       
+            <a href="home.html"><img src="image/download (1).png" alt="" class=""></a>
+        
+    </div>
+</div> -->
+<!-- .......................logo................. -->
+
+<!-- ........................mean-header.................... -->
+    <div class="nav-color  w-full bg-black opacity-90 text-center ">
+        <div class="nav-color">
+                <nav class="nav-color flex  text-white    items-center  justify-between lg:px-10 px-4" >
+                     <div class="py-2">
+                       <a href="home.html"><img src="image/download (1).png" alt="" width="80px" height="80px" class="bg-cover rounded-full" ></a>
+                    </div>
+                    <div id="nav-menu" class="text-center hidden sm:block ">
+                            <ul class="flex text-lg menu-item  ">
+                                <li class="menu  capitalize active py-2"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+                                <li class="menu  capitalize py-2"><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+                                    </li>
+                                    <li class="menu relative uppercase capitalize h-full py-2"><a href="product.html"  class=" mx-4 ">PRODUCTS</i></a>
+                                      <div class="sub-menu-web-services absolute hidden text-left top-[43 px] left-0 bg-[rgb(188,45,28)] text-white px-2 py-2 text-lg  w-96">
+                                        <ul>
+                                             <li class="mb-2 uppercase"><a  href="castingmachine.html">casting machine</a></li> 
+                                            <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                                            <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                                             <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                                            <li class="mb-2 uppercase"> <a   href="comsumable.html">polishing buffering and consumables</a></li> 
+                                            <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                                            <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                                            <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                                        </ul>
+                                    </div>
+                                    </li>
+                                    
+                                    <li class="menu   py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+                                    
+                        </ul>
+                    
+                    </div>
+                    <div class="text-white relative text-xl sm:hidden block" onclick="myFunction()"><i class="fa-solid fa-bars"></i>
+                      </div>
+                </nav> 
+            </div>
+    </div> 
+<!-- ........................mean-header.................... -->
+
+
+       <!-- .....................................on toggle button.................... -->
+       <div class="absolute lg:hidden text-center z-40 bg-orange-900 w-full">
+        <ul id="togglebutton" class=" hidden block text-lg menu-item relative">
+            <li class="menu capitalize  py-2 active"><a href="home.html" class=" mx-4 ">HOME</a></li> 
+            <li class="menu  capitalize py-2 "><a href="about.html"  class=" mx-4 ">ABOUT US</a>
+                </li>
+                <li class="menu relative uppercase capitalize h-full py-2"><a href="product.html"  class="mx-4">PRODUCTS</i></a>
+                  <div   class="sub-menu-web-services z-20 absolute hidden hover:block text-left top-[43px] left-0 bg-[rgb(188,45,28)]text-white px-2 py-2 text-lg  w-96">
+                    <ul>
+                         <li class="mb-2 uppercase"><a  href="castingmachine.html">Vacuum pressure induction casting machine</a></li> 
+                        <li class="mb-2 uppercase"><a  href="productsandmachinery.html">products and machinery for cleaning and finishing</a> </li>
+                        <li class="mb-2 uppercase"><a  href="urocleaningproducts.html">uro cleaning products range</a> </li>
+                         <li class="mb-2 uppercase"><a  href="lusterrange.html">luster range</a></li>
+                        <li class="mb-2 uppercase"> <a  href="comsumable.html">polishing buffering and consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="plating.html">plating solution & consumables</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_wax.html">uro-wax range</a></li> 
+                        <li class="mb-2 uppercase"><a  href="uro_media.html">uro-media range</a></li>
+                    </ul>
+                </div>
+                </li>
+                
+                <li class="menu py-2"><a href="contactus.html"  class=" mx-4 capitalize">CONTACT US</a></li>
+                  <div class="outer absolute top-0 right-3 px-2 cursor-pointer text-white hover:text-black m-2 ">
+                    <div class="button font-semibold" onclick="hideVideo()">X</div>
+                  </div>       
+    </ul>
+  
+   
+    <script>
+      function hideVideo() {
+      var x = document.getElementById("togglebutton");                                                                
+        x.style.display = "none";                                                                 
+      }
+    </script>
+   <!-- .....................................on toggle button.................... -->
+  
+    <script>
+      function myFunction() {
+        var x = document.getElementById("togglebutton");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+
+                     
+  
+    </div>
+    
+<!-- ................banner image............... -->
+   <div class="pt-[0px]">
+    <div class="relative  bg-[url('image/homepage-banner-2.jpg')] h-[350px] bg-cover text-center ">
+      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full bg-cover overflow-hidden opacity-60 transition duration-300 ease-in-out bg-black grid place-content-center text-white">
+        <div class="lg:w-9/12 m-auto">
+          <h1 class="uppercase text-4xl font-bold my-6 text-white">Objective</h1>
+          <p class="text-xl font-medium text-white">Our objective and promise is to continue to provide quality products and value added services to grow our business all over the world.</p>
+      </div>
+      </div>
+    </div>
+    </div>
+<!-- ................banner image............... -->
+
+<div>
+
+
+ </div>
+
+
+ <div class="" >
+<div class=" container-2">
+    <div class="">
+       <!-- .....................company profile..................... -->
+        <div class=" py-5">
+            <div class="w-72 m-auto  my-5 border-b-4 border-orange-400">
+            <h1 class="text-xl font-bold text-[rgb(171,61,41)] py-1 uppercase">Company Profile</h1> 
+        </div>
+        <div class="my-4">
+            <h1 class="text-xl font-semibold my-3">Quality Is Our Identity...</h1>
+            <div class="my-4">
+            <p class="leading-8">We are partiular Manufacturer and Trader of a wider range of products for jewellery industry like Imported and Indian <a href="">Casting Machine, </a><a href="">Plating Plant, </a>etc. & their Spare too... We deal with all types of Plating and Cleaning solutions like <a href="">Rhodium, </a><a href="">Micro Plating, </a><a href="">Ultra Cleaning</a> and <a href="">Magnetic Solution </a>etc...</p>
+        </div>
+        <div class="my-4">
+            <p class="leading-8">
+                We deal with all types of jewellery related queries for further inquires contact <span class="font-semibold">Urotec Solution Pvt. Ltd.</span>
+            </p>
+        </div>
+        <div class="my-4">
+            <p class="leading-8">
+                The firm is since from last 10 years in the industry and has  good rapport in the industry. We have achieved different targets and have established good name in the industry. Apart from this, we are also professional Service Providers enagaged in providing Conultancy Services regarding Technical Setup, Factory Setup etc...
+            </p>
+        </div>
+        <div class="my-4">
+            <p class="leading-8">
+               <span class="font-semibold">UROTEC </span>offers a wide range of machines and products for the treatment and <span class="font-semibold">CLEANING </span>of precious metals. It's only with the research and the investments in new Technologies that we can guarantee supplies of products in high segments of market. In order to respond with competemce, professionalism and precision to the demands of our customers, technical staff <span class="font-semibold">UROTEC </span>is always available, offering an efficient and speedy support.
+            </p>
+        </div>
+    </div>
+</div>
+ <!-- .....................company profile..................... -->
+
+ <!-- .......................service we provide................ -->
+    <div class="slider  ">
+        <div class="">
+            <div class="w-72 m-auto  my-5 border-b-4 border-orange-400">
+            <h1 class="text-xl font-bold text-[rgb(188,45,28)] py-1 uppercase">Service We Provide</h1> 
+        </div>
+        <div class="my-4">
+            <p class="font-semibold"></p>
+        </div>
+            <div class="w-7/12 m-auto">
+                <img src="image/e2892b_e7360b4615dd41ed856b0a8189a1f9f6_mv2.webp" alt="">
+            </div>
+            <div class=" my-5">
+                <ul class="">
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>All types of Plating Solutions & Cleaning Solution for Jewellery Industry.
+                      </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>Solutions to all jewellery castinfg Queries.
+                    </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>Plating Setup & Consultation.
+                    </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>All types of Technical Consultancy like Casting, Rhodium  and Polishing.
+                    </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>We provide all types of Imported as well as Indian machine like Casting Machine, Burnout Furnace etc. for Jewellery Industry
+                    </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>All types of Plating Solutions & Cleaning Solution for Jewellery Industry.
+                    </li>
+                    <li class="leading-loose text-md">
+                        <span class="text-2xl pl-2 mr-6 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 text-[rgb(171,61,41)]">+</span>Entire Factory Setup.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+   <!-- .......................service we provide................ -->
+
+   <!-- ............................THIS CONCEPT IS ONLY FOR SMALL SCALE JEWELLERY MANUFACTURERS............. -->
+        <div class="my-10">
+           <div class="lg:w-8/12 m-auto container">
+            <div class="text-center my-5"><h1 class="text-lg font-semibold border-b-2 border-orange-400 lg:mx-16 py-1 text-[rgb(171,61,41)]">THIS CONCEPT IS ONLY FOR SMALL SCALE JEWELLERY MANUFACTURERS</h1></div>
+            <div class=""> <img src="image/minicastingsetup.png" alt=""></div>
+            <div class="my-5 ">
+                <ol class="list-decimal px-5">
+                    <li class="my-3 leading-7 ">VALCUNIZER HYDRAULIC <span class="text-lg"><span class="text-lg">:-</span> </span> 
+                        <p class="text-sm">It’s very easy to press in this vulcanizer as it designed especially for jewellery industry</p>
+                    </li>
+                    <li class="my-3 leading-7">WAX INJECTOR AUTO TIME FEED <span class="text-lg">:-</span> 
+                        <p class="text-sm">It’s a Semi-Automatic Wax Injector where all metering devices are on front panel so ease to control and operate.</p>
+                    </li>
+                    <li class="my-3 leading-7">INVESTMENT MIXTURE <span class="text-lg">:-</span> 
+                        <p class="text-sm">Stainless steel with output valve having a capacity of 3 flask</p>
+                    </li>
+                    <li class="my-3 leading-7">BURNOUT FURNACE <span class="text-lg">:-</span> 
+                        <p class="text-sm"><span>Capacity : </span>6 Flask</p>
+                        <p class="text-sm">Furnace will have 4 side heating element.</p>
+                    </li>
+                    <li class="my-3 leading-7">MINI INDUCTION CASTING MACHINE <span class="text-lg">:-</span> 
+                        <p class="text-sm">Crucible Capacity 500 grm & Supply – 4 Kw.</p>
+                    </li>
+                    <li class="my-3 leading-7">WATER JET <span class="text-lg">:-</span> 
+                        <p class="text-sm">This water jet has pressure pump attached to it.</p>
+                    </li>
+                    <li class="my-3 leading-7"> TREE <span class="text-lg">:-</span> 
+                        <p class="text-sm">Your casting metal tree is ready.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        </div>
+ <!-- ............................THIS CONCEPT IS ONLY FOR SMALL SCALE JEWELLERY MANUFACTURERS............. -->
+
+ <!-- ..................................vacuum pressure induction casting machine.......................... -->
+        <div>
+            <div class="lg:w-2/4 ">
+            <h1 class="uppercase text-lg font-semibold border-b-4 border-orange-400 py-1 text-[rgb(171,61,41)]">vacuum pressure induction casting machine</h1>
+        </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1  my-2">
+                <div class="leading-8" >
+                    <h1 class="font-semibold">Technical Specification :-</h1>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Power rating </h1><p><span class="font-semibold">:- </span> 400 V, 50 Hz, 3-Phase, 10 KW</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Crucible capacity </h1><p><span class="font-semibold">:- </span>2 kg /4 kg (gold)</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Melting   </h1><p><span class="font-semibold">:- </span>By induction at medium frequency.</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Flask Capacity  </h1><p><span class="font-semibold">:- </span> 5”x18” and 9”x13”</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Over pressure  </h1><p><span class="font-semibold">:- </span> 2 Bar</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Compressed air </h1><p><span class="font-semibold">:- </span> 6 Bar</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Max. Operating temp. </h1><p><span class="font-semibold">:- </span>1350oc</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Protective Gas </h1><p><span class="font-semibold">:- </span>Nitrogen, Argon gas</p></div>
+                    <div class="grid grid-cols-2"><h1 class="font-semibold">Vacuum capacity </h1><p><span class="font-semibold">:- </span>40m3/ hour</p></div>
+                </div>
+                <div class="flex justify-center "><img src="image/vaccumpressure.png " alt="" class=""></div>
+            </div>
+            <div>
+                <h1 class="font-semibold py-2">Features :</h1>
+                <ol class="list-decimal px-5 leading-7">
+                    <li class="px-5">The control panel is with HMI (computerized) Touch panel and PLC operated, having 4 modes of operation 
+                        as MANUAL, STANDARD JET TECH & GRAINING.
+                        </li>
+                    <li class="px-5">No. of programs-100 </li>
+                    <li class="px-5">All parameters are adjustable by operator and user friendly.</li>
+                    <li class="px-5">Bottom Pouring, Accurate temp. Monitoring by HMI and PLC based monitor.</li>
+                    <li class="px-5">18” flasks can be casted with vacuum and pressure.</li>
+                    <li class="px-5">Casting without vacuum possible.</li>
+                    <li class="px-5">Temp. Sensor located in Center of the metal.</li>
+                    <li class="px-5">Melting is under inert atmosphere. (NITROGEN OR ARGON GAS)
+                    </li>
+                    <li class="px-5">The PLC plays a major role in optimizing the set parameters of all selected data’s with higher accuracy.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- ..................................vacuum pressure induction casting machine.......................... -->
+      </div>
+    </div>
+
+
+<!-- ..........................more machine product button....................     -->
+    <div class="bg-orange-400">
+        <div class=" container m-auto px-5 flex justify-between my-5 py-5 items-center ">
+        <p class="lg:text-lg text-sm">In line with the aforesaid Products, we also cater the above Product Machine. There are more types of  Product machines also available. click on this <i class="fa-solid fa-arrow-right hover:translate-x-10"></i></p>
+        <button class="border border-orange-900 px-2 py-2 text-md w-80 rounded-lg bg-[rgb(171,61,41)] text-white">MORE MACHINE PRODUCTS</button>
+    </div>
+    </div>
+ <!-- ..........................more machine product button....................     -->
+ 
+ 
+ <!-- ...............................Products and Machinery........................... -->
+    <div class="container m-auto text-lg font-semibold">
+        <div class="text-left uppercase text-[rgb(171,61,41)] border-b-2 border-orange-400 w-96 m-auto mt-10">
+            <h1>Products and Machinery</h1>
+        </div>
+        <section class="section-5">
+            <div class="row">
+              <figure class="figure">
+                <img src="image/POLISHINGHAIRBRUSHES.PNG" alt="">
+                <figcaption>
+                  <div class="icon">
+                    <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-paintbrush"></i></ion-icon></span>
+                  </div>
+                  <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">POLISHING BUFFERING<span>& CONSUMABLES</span></h2>
+                    <div class="caption text-sm font-semibold">
+                      <p>View the collections</p>
+                    </div>
+                </figcaption>
+                    <a href="comsumable.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/urocleaningsolutions.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-spray-can-sparkles"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">URO CLEANING PRODUCTS <span>RANGE</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="urocleaningproducts.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/UROTECMAGNETICTUMBLER.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-weight-scale"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">UROTEC MAGNETIC <span>TUMBLER</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="productsandmachinery.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/PLATINUMROUGEBARS.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-coins"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">LUSTER <span>RANGE</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="lusterrange.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/melting.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-coins"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">INDUCTION MELTING<span>FURNACE</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="castingmachine.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/plating-solution.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-coins"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">PLATING SOLUTION &<span>CONSUMABLES</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="comsumable.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/waxrange.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-coins"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">URO-WAX<span>RANGE</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="uro_wax.html"></a>
+              </figure>
+              <figure class="figure">
+                <img src="image/WhitePyramid 6-8mm.PNG" alt="">
+                <figcaption>
+                    <div class="icon">
+                      <span class="font-medium"><ion-icon name="images"><i class="fa-solid fa-coins"></i></ion-icon></span>
+                    </div>
+                    <h2 class="text-sm font-semibold text-[rgb(171,61,41)]">URO-MEDIA<span>RANGE</span></h2>
+                      <div class="caption text-sm font-semibold">
+                        <p>View the collections</p>
+                      </div>
+                  </figcaption>
+                    <a href="uro_media.html"></a>
+              </figure>
+            </div>
+          </section>
+    </div>
+
+<!-- ...............................Products and Machinery........................... -->
+
+
+
+
+
+
+
+</div>
+<!-- ...............footer................ -->
+    <footer class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 pt-5 border-t-2 border-gray-500 bg-[rgb(171,61,41)] text-white">
+        <div class="text-left">
+        <div>
+            <h1 class="uppercase font-bold text-lg text-black pb-5">urotec solutions pvt. ltd.</h1>
+            <p class="pb-4">
+                <span class="text-black">Head office : </span> Unit no. E3, Plot No. 11 & 12, WICEL Industrial Estate, 
+                Opp. Seepz Gate No. 1, MIDC, Andheri (E), Mumbai - 400093.                 
+            </p>
+        </div>
+        <p class="cursor-pointer mb-2"><a href="https://api.whatsapp.com/send?phone=9930646412"><i class="fa-brands fa-square-whatsapp"></i> +91-22-2824 0045 / </a><a href="">46 / </a><a href="">48</a></p>
+        <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-envelope"></i> info@urotecsolutions.com.com</a></p>
+        <p class="cursor-pointer mb-2"><a href=""><i class="fa-regular fa-globe"></i> www.urotecsolutions.com</a></p>
+        <div class=" text-2xl">
+            <a href="www.twitter.com" ><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.linkedin.com"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div> 
+    </div>
+    
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase text-black">Casting Machine</h3>
+            <ul class="leading-7">
+                <li>Vaccum Pressure Induction Casting Machine</li>
+                <li>Platinum Casting Machine</li>
+                <li>Wet Spure Grinding Machine</li>
+                <li>Electro Polishing Machine For (Silver)</li>
+                <li>Vapour Honning Machine</li>
+                <li>Induction Melting Furnace</li>
+                <li>Burnout Furnace</li>
+                <li>Investment</li>
+                <li>Waterjet</li>
+            </ul>
+        </div>
+
+       <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase text-black">products and machinery for cleaning and finishing</h3>
+            <ul class="leading-7">
+                <li>Urotec Magnetic Tumbler</li>
+                <li>Urotec Vibrator</li>
+                <li>Ultrasonic Cleaning Machine Silent</li>
+            </ul>
+        </div>
+
+        <div class="cursor-pointer">
+            <h3 class="text-lg pb-5 uppercase text-black">uro cleaning products range</h3>
+            <ul class="leading-7">
+                <li>Ultra Cleaning Solution</li>
+                <li>Magnetic Solution</li>
+                <li>Shining Solution</li>
+                <li>Decreasing Salt</li>
+                <li>Antitarnish Urotec 100 for Silver</li>
+                <li>URO Matt Finis Powder</li>
+                <li>URO Rose Gold Plating</li>
+                <li>URO Liquid Mould Rubber</li>
+                <li>URO Zinc </li>
+
+            </ul>
+            <button id="scroll" class="hidden fixed bottom-5 right-3 z-50  border border-gray-400 outline-none outline-0 bg-gray-400 hover:bg-orange-600 text-white cursor-pointer py-3.5 px-5 rounded-full"><i class="fa-solid fa-arrow-up text-xl text-black"></i></button>
+        </div>
+            <!-- <div class="cursor-pointer">
+                <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+                <ul>
+                    <li>Vaccum Pressure Induction Casting Machine</li>
+                    <li>Platinum Casting Machine</li>
+                    <li>Wet Spure Grinding Machine</li>
+                    <li>Electro Polishing Machine For (Silver)</li>
+                    <li>Vapour Honning Machine</li>
+                    <li>Induction Melting Furnace</li>
+                    <li>Burnout Furnace</li>
+                    <li>Investment</li>
+                    <li>Waterjet</li>
+                </ul>
+            </div>
+
+            <div class="cursor-pointer">
+                <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+                <ul>
+                    <li>Vaccum Pressure Induction Casting Machine</li>
+                    <li>Platinum Casting Machine</li>
+                    <li>Wet Spure Grinding Machine</li>
+                    <li>Electro Polishing Machine For (Silver)</li>
+                    <li>Vapour Honning Machine</li>
+                    <li>Induction Melting Furnace</li>
+                    <li>Burnout Furnace</li>
+                    <li>Investment</li>
+                    <li>Waterjet</li>
+                </ul>
+            </div>
+
+            <div class="cursor-pointer">
+                <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+                <ul>
+                    <li>Vaccum Pressure Induction Casting Machine</li>
+                    <li>Platinum Casting Machine</li>
+                    <li>Wet Spure Grinding Machine</li>
+                    <li>Electro Polishing Machine For (Silver)</li>
+                    <li>Vapour Honning Machine</li>
+                    <li>Induction Melting Furnace</li>
+                    <li>Burnout Furnace</li>
+                    <li>Investment</li>
+                    <li>Waterjet</li>
+                </ul>
+            </div>
+
+            <div class="cursor-pointer">
+                <h3 class="text-lg pb-5 uppercase">Casting Machine</h3>
+                <ul>
+                    <li>Vaccum Pressure Induction Casting Machine</li>
+                    <li>Platinum Casting Machine</li>
+                    <li>Wet Spure Grinding Machine</li>
+                    <li>Electro Polishing Machine For (Silver)</li>
+                    <li>Vapour Honning Machine</li>
+                    <li>Induction Melting Furnace</li>
+                    <li>Burnout Furnace</li>
+                    <li>Investment</li>
+                    <li>Waterjet</li>
+                </ul>
+            </div>
+         -->
+
+     
+    </footer>
+     
+    
+
+    <script>
+      $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 800); 
+        return false; 
+    }); 
+});
+
+    </script>  
+
+
+
+     <!-- <script>
+        function myFunction() {
+          var x = document.getElementById("nav-menu");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script> -->
+    <script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+</body>
+</html>

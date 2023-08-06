@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .speed-dial {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.speed-dial__options {
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.speed-dial__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #cccccc;
+  color: #333333;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+  outline: none;
+  transition: background 0.2s, opacity 0.2s, transform 0.2s;
+}
+
+.speed-dial__button:active {
+  background: #aaaaaa;
+}
+
+.speed-dial__button--primary {
+  margin-bottom: 0;
+  padding: 18px;
+  background: #009879;
+  color: #ffffff;
+}
+
+.speed-dial__button--primary:active {
+  background: #00856a;
+}
+
+.speed-dial__button:not(.speed-dial__button--primary) {
+  opacity: 0;
+  transform: translateY(40px);
+  visibility: hidden;
+}
+
+.speed-dial--active .speed-dial__button {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+    </style>
+</head>
+<body>
+    <div class="speed-dial">
+        <button class="speed-dial__button speed-dial__button--primary">
+          <i class="material-icons">menu</i>
+        </button>
+        <div class="speed-dial__options">
+          <button class="speed-dial__button" id="btnCalendar">
+            <i class="material-icons">calendar_today</i>
+          </button>
+          <a href="#" class="speed-dial__button">
+            <div class="material-icons">note_add</div>
+          </a>
+          <span class="speed-dial__button">
+            <div class="material-icons">power_settings_new</div>
+          </span>
+        </div>
+      </div> 
+</body>
+</html>
+<script>
+    (function() {
+  var speedDialContainer = document.querySelector(".speed-dial");
+  var primaryButton = speedDialContainer.querySelector(
+    ".speed-dial__button--primary"
+  );
+
+  document.addEventListener("click", function(e) {
+    var classList = "speed-dial";
+    var primaryButtonClicked =
+      e.target === primaryButton || primaryButton.contains(e.target);
+    var speedDialIsActive =
+      speedDialContainer.getAttribute("class").indexOf("speed-dial--active") !==
+      -1;
+
+    if (primaryButtonClicked && !speedDialIsActive) {
+      classList += " speed-dial--active";
+    }
+
+    speedDialContainer.setAttribute("class", classList);
+  });
+})();
+
+</script>
